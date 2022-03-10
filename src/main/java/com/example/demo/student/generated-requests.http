@@ -1,0 +1,17 @@
+###
+POST http://localhost:9090/api/v1/student
+Content-Type: application/json
+
+ {
+    "name": "Bill",
+    "email": "bill@russ.com",
+    "dob": "1991-06-09"
+  }
+
+###
+  //DELETE  http://localhost:9090/api/v1/student/1
+
+
+###
+PUT http://localhost:9090/api/v1/student/1?name=Edgar
+Content-Type: application/json
